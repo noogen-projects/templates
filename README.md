@@ -6,7 +6,7 @@ Use [`cargo-generate`](https://github.com/ashleygwilliams/cargo-generate) to gen
 cargo generate --git https://github.com/noogen-projects/lib-template.git -n projectname
 ```
 
-For simplify generation command line, add the `noogen` cargo command as below:
+To simplify generation command line, add the `noogen` cargo command as below:
 
 ```
 cat > ~/.cargo/bin/cargo-noogen << EOM
